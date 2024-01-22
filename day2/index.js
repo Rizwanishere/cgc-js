@@ -21,22 +21,22 @@ console.log(ans2)
         //-->(4 2 1)
 var a=6 //--> 1 1 0
 var b=3 //--> 0 1 1
-//         //--> --------
-//         //--> 0 1 0
+//      //--> --------
+//      //--> 0 1 0
 console.log(a&b) //(&= both are 1)
 
 // bitwise operator(|)
 var a=6 //--> 1 1 0
 var b=3 //--> 0 1 1 
-//         //--> --------
-//         //--> 1 1 1
+//      //--> --------
+//      //--> 1 1 1
 console.log(a|b) //(|= either is 1 )
 
 // bitwise operator(^)
 var a=6 //--> 1 1 0
 var b=3 //--> 0 1 1 
-//         //--> --------
-//         //--> 1 0 1
+//      //--> --------
+//      //--> 1 0 1
 console.log(a^b) //(^= 0 when both are 1)
 
 // pre & post increment
