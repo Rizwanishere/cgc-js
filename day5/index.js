@@ -148,7 +148,8 @@ function calcBill(units){
     return amount + tax;
 }
 
-console.log(calcBill(120));
+console.log(calcBill(250));
+
 
 
 
