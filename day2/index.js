@@ -12,7 +12,7 @@ var b='10'
 var ans2= a==b
 console.log(ans2)
 
-// logical op(&&,||,!) (0 1)
+// logical op(&&,||,!)  (0 1)
 // &&=true when both should be 1 otherwise false
 // ||=true when either is 1 otherwise false when 0 0
 // ! true=false & false=true
@@ -55,3 +55,15 @@ console.log(x<<1);    //100
 // bitwise operator(>>)
 var x = 50
 console.log(x>>1);    //25
+
+// <--Ternary Operators-->
+
+// if (marks >= 40) {
+//     passed = true;
+// } else {
+//     passed = false;
+// }
+
+var marks = 92
+var passed = marks >= 35? 1:0
+console.log(passed);
