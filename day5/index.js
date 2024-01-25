@@ -1,17 +1,17 @@
 // <--function to cacl students percentage from their marks-->
-// function calc(marks){
-//     var sumOfMarks = marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5];
-//     var totalMarks = marks.length * 100;
-//     //graderegate
-//     var graderegate = (sumOfMarks / totalMarks) * 100;
-//         console.log(graderegate);
-//      }
+function calc(marks){
+    var sumOfMarks = marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5];
+    var totalMarks = marks.length * 100;
+    //gradeaggregate
+    var gradeAgg = (sumOfMarks / totalMarks) * 100;
+        console.log(gradeAgg);
+     }
 
-// var samad = [99,90,85,80,95,92];
-// var faisal =[90,85,89,91,94,80];
+var samad = [99,90,85,80,95,92];
+var faisal =[90,85,89,91,94,80];
 
-// calc(samad);
-// calc(faisal);
+calc(samad);
+calc(faisal);
 
 
 // <--Conditional statements-->
@@ -20,12 +20,12 @@ var faisal=1;
 if(faisal) console.log("true");
 else console.log("false");
 
-var samad = false;
 
-if (samad==true){
-     console.log("passed");     }
-else{
-     console.log("Failed");     }
+var samad = false;
+if (samad==true)
+     console.log("passed");     
+else
+     console.log("Failed");     
 
 
 
