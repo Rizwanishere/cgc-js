@@ -1,26 +1,26 @@
 object has a configuration which contains four properties as value, writable, enumerable and configurable.
 
 <h2>Object Creation<h2>  
-// Each of the following options will create a new empty object:  
-var newObject = {};  
-// or  
-var new Object = Object.create( Object.prototype );  
-// or  
-var newObject = new Object();  
+// Each of the following options will create a new empty object:<br>  
+var newObject = {};<br>
+// or<br>
+var new Object = Object.create( Object.prototype );<br>
+// or<br>
+var newObject = new Object();  <br>
   
-<h2>Set Property<h2>  
-var newObject = {a: 1};  
-// Accessing to a property  
-newObject.a; // => 1  
-// Modifying the value of a property  
-newObject.a = 0;  
-newObject.a; // => 0;  
-// Creating a new property  
-newObject.b = 2;  
-newObject.b; // => 2  
-// Deleting a property    
-delete newObject.b;  
-newObject.b; // => undefined  
+<h2>Set Property<h2>  <br>
+var newObject = {a: 1};  <br>
+// Accessing to a property <br> 
+newObject.a; // => 1  <br>
+// Modifying the value of a property  <br>
+newObject.a = 0;  <br>
+newObject.a; // => 0;  <br>
+// Creating a new property  <br>
+newObject.b = 2;  <br>
+newObject.b; // => 2  <br>
+// Deleting a property   <br> 
+delete newObject.b;  <br>
+newObject.b; // => undefined  <br>
 
   
 but, you know that all the properties above are writable, configurable & enumerable, I mean :  
