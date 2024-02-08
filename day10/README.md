@@ -23,7 +23,7 @@ delete newObject.b;  <br>
 newObject.b; // => undefined  <br>
 
   
-but, you know that all the properties above are writable, configurable & enumerable, I mean :  
+but, you know that all the properties above are writable, configurable & enumerable, I mean : <br> 
 
 <h2>writable:<h2> 
 I can modify their values, I can update a property just assigning a new value to it.Defaults to true.
