@@ -1,4 +1,4 @@
-object has a configuration which contains four properties as value, writable, enumerable and configurable. <br>
+object has a configuration which contains four properties as value, writable, enumerable and configurable. <br> <br>
 Syntax: Object.defineProperty(obj, prop, descriptor)
 
 
