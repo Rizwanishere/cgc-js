@@ -47,7 +47,7 @@ console.log(student[p]);
 var x = 10;
 var y = x; // copy
 ++x;
-console.log(x, y);
+console.log(x,y);
 
 
 
