@@ -16,6 +16,7 @@ function addAsync(a,b,cb) {
 }
 
 // rather than creating a callback function, we can define it in the paramter itself by arrow function
+
 // addAsync(1,2,(res)=>console.log(res));
 
 addAsync(1,2,(err,res) => {
